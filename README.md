@@ -2,7 +2,7 @@
 Useful tools I made to help working.
 Add this file to PATH for easier accessing. Add this in ~/.zshrc :
 ```
-$PATH = $PATH:<path>
+PATH = $PATH:<path>
 ```
 Where <path> is your path of the bin file.
 ## start.sh
