@@ -16,6 +16,9 @@ if [ "$2" = "c" ]; then
 fi
 git init
 touch .gitignore
-echo "*.out" >.gitignore
+echo "*" >.gitignore
+echo "!*.c" >.gitignore
+echo "!*.h" >.gitignore
+echo "!*/cpp" >.gitignore
 git add .
 git commit -m "Initialize the dictionary from start.sh"
