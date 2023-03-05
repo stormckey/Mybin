@@ -22,3 +22,4 @@ echo "!*.h" >.gitignore
 echo "!*/cpp" >.gitignore
 git add .
 git commit -m "Initialize the dictionary from start.sh"
+
