@@ -5,7 +5,7 @@ touch $1"."$2
 touch "test.sh"
 touch "data.txt"
 echo "#!/bin/zsh" > test.sh
-echo "g++ -std=c++11"$1"."$2 >> test.sh
+echo "g++ -std=c++11 "$1"."$2 >> test.sh
 echo "./a.out < data.txt" >> test.sh
 if [ "$2" = "cpp" ]; then
     echo "#include <iostream>" >$1".cpp"
